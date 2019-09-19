@@ -1,0 +1,25 @@
+
+# Documents, Pictures, and Movies
+*.pdf
+*.jpg
+*.tiff
+*.png
+*.avi
+*.mp4
+
+# Latex Intermediate Files
+*.aux
+*.log
+*.out
+*.lo[ft]
+*.idx
+*.toc
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+
+# Extras
+*.*~
+.DS_Store
+__pycache__/
