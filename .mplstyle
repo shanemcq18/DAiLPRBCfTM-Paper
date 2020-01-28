@@ -1,0 +1,25 @@
+### Style guide for lab plots.
+
+## Text
+#pdf.fonttype       : 42
+#font.family        : serif
+#font.serif         : Times, Palatino, New Century Schoolbook, Bookman, Computer Modern Roman
+#font.sans-serif    : Arial, Helvetica, Avant Garde, Computer Modern Sans serif
+#font.cursive       : Zapf Chancery
+#font.monospace     : Courier, Computer Modern Typewriter
+
+## Axes
+axes.spines.top    : False
+axes.spines.right  : False
+axes.labelpad      : 8.0
+axes.titlesize     : x-large
+axes.titlepad      : 16.0
+
+## Figures
+figure.titlesize   : x-large
+figure.figsize     : 5, 3       # Can't be too big, or axis labels are tiny.
+
+savefig.dpi        : 300
+savefig.format     : pdf
+savefig.bbox       : tight
+

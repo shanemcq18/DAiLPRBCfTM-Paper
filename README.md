@@ -1,13 +1,13 @@
 Source code and data for the paper _Data Assimilation in Large-Prandtl Rayleigh-Benard Convection from Thermal Measurements_ by [A. Farhat](https://scholar.google.com/citations?user=LlBckhUAAAAJ&hl=en&oi=ao), [N. E. Glatt-Holtz](https://scholar.google.com/citations?user=1GRq340AAAAJ&hl=en&oi=ao), [V. R. Martinez](https://scholar.google.com/citations?user=zml74fIAAAAJ&hl=en&oi=sra), [S. A. McQuarrie](https://scholar.google.com/citations?user=qQ6JDJ4AAAAJ&hl=en&oi=sra), and [J. P. Whitehead](https://scholar.google.com/citations?hl=en&user=lLR_YEYAAAAJ).
-The paper has been submitted to the [SIAM Journal on Applied Dynamical Systems (SIADS)](https://www.siam.org/Publications/Journals/SIAM-Journal-on-Applied-Dynamical-Systems-SIADS).
-Read an early draft of the paper [on ArXiV](https://arxiv.org/abs/1903.01508).
+The paper will appear in the [SIAM Journal on Applied Dynamical Systems (SIADS)](https://www.siam.org/Publications/Journals/SIAM-Journal-on-Applied-Dynamical-Systems-SIADS).
+An earlier draft of the paper is available [on the ArXiV](https://arxiv.org/abs/1903.01508).
 
 ## Contents
 
-#### Code
+**Disclaimer:** most scripts in this repository require the [`dedalus`](http://dedalus-project.org/) package; see the [dedalus install guide](https://dedalus-project.readthedocs.io/en/latest/installation.html).
+A quick way to test that your `dedalus` installation is working properly for this repository is to run `python3 data_assimilation.py --test`.
 
-The following files were used to run numerical simulations with [`dedalus`](http://dedalus-project.org/), analyze the data, and create the figures that appear in the paper.
-As a disclaimer, these scripts all require `dedalus` to be installed beforehand.
+#### Code
 
 - [`base_simulator.py`](base_simulator.py): defines a `BaseSimulator` class base for managing data storage locations, simulation information, and other housekeeping items.
 
@@ -26,18 +26,18 @@ The actual simulation code is in `BoussinesqDataAssimilation2D.setup()` and `Bou
 
 #### Data Files
 
-The following folders contain numerical simulation results, organized by the value of the Prandtl number _Pr_.
+- [`default.h5`](default.h5): an initial data set for testing.
 
-- [`infinite_prandtl`/](infinite_prandtl): experiments in which _Pr_ is infinite.
+- [`infinite_prandtl`/](infinite_prandtl): numerical simulation results for experiments in which _Pr_ is infinite.
 
-- [`finite_prandtl`/](finite_prandtl): experiments in which _Pr_ is finite, but large.
+- [`finite_prandtl`/](finite_prandtl): numerical simulation results for experiments in which _Pr_ is finite, but large.
 
-- [`hybrid_prandtl`/](hybrid_prandtl): experiments in which the data comes from a model with finite _Pr_, but the assimilating model assumes _Pr_ to be infinite.
+- [`hybrid_prandtl`/](hybrid_prandtl): numerical simulation results for experiments in which the data comes from a model with finite _Pr_, but the assimilating model assumes _Pr_ to be infinite.
 
-- [`old_data/`](old_data): numerical results from a previous version of the paper.
+- [`old_data/`](old_data): numerical simulation results from a previous version of the paper.
 
 #### Figures
 
-The [`figures/`](figures) folder contains the actual figures used in the paper.
+- [`figures/`](figures) folder containing the actual figures used in the paper.
 
-
+- [`.mplstyle`](.mplstyle): `matplotlib` configuration file.
