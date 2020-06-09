@@ -1,5 +1,5 @@
 # data_assimilation.py
-"""Class-based Dedalus script on Data Assimilation for Mantle Convection.
+"""Object-oriented Dedalus script on Data Assimilation for Mantle Convection.
 
 usage: data_assimilation.py -h
        data_assimilation.py --test
