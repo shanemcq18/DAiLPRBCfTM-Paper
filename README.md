@@ -1,4 +1,16 @@
-Source code and data for the paper [_Data Assimilation in Large-Prandtl Rayleigh-Benard Convection from Thermal Measurements_](https://epubs.siam.org/doi/abs/10.1137/19M1248327) by [A. Farhat](https://scholar.google.com/citations?user=LlBckhUAAAAJ&hl=en&oi=ao), [N. E. Glatt-Holtz](https://scholar.google.com/citations?user=1GRq340AAAAJ&hl=en&oi=ao), [V. R. Martinez](https://scholar.google.com/citations?user=zml74fIAAAAJ&hl=en&oi=sra), [S. A. McQuarrie](https://scholar.google.com/citations?user=qQ6JDJ4AAAAJ&hl=en&oi=sra), and [J. P. Whitehead](https://scholar.google.com/citations?hl=en&user=lLR_YEYAAAAJ).
+Source code and data for the paper [_Data Assimilation in Large Prandtl Rayleigh-Benard Convection from Thermal Measurements_](https://epubs.siam.org/doi/abs/10.1137/19M1248327) by [A. Farhat](https://scholar.google.com/citations?user=LlBckhUAAAAJ&hl=en&oi=ao), [N. E. Glatt-Holtz](https://scholar.google.com/citations?user=1GRq340AAAAJ&hl=en&oi=ao), [V. R. Martinez](https://scholar.google.com/citations?user=zml74fIAAAAJ&hl=en&oi=sra), [S. A. McQuarrie](https://scholar.google.com/citations?user=qQ6JDJ4AAAAJ&hl=en&oi=sra), and [J. P. Whitehead](https://scholar.google.com/citations?hl=en&user=lLR_YEYAAAAJ).
+
+<details><summary>BibTeX</summary><pre>
+@article{FGMMW2020RBDAfromThermal,
+    title     = {Data Assimilation in Large {P}randtl {R}ayleigh-{B}{\'e}nard Convection from Thermal Measurements},
+    author    = {Farhat, A. and Glatt-Holtz, N. E. and Martinez, V. R. and McQuarrie, S. A. and Whitehead, J. P.},
+    journal   = {SIAM Journal on Applied Dynamical Systems},
+    volume    = {19},
+    number    = {1},
+    pages     = {510--540},
+    year      = {2020},
+    publisher = {SIAM}
+}</pre></details>
 
 ## Contents
 
